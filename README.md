@@ -1,4 +1,4 @@
-# Python Visual Studio Code Setup
+# Visual Studio Code Setup
 
 ## Extensions
 
