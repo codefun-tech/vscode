@@ -22,6 +22,8 @@ In this initial setup, two packages are required:
 
 - flake8
 - yapf
+- rope
+- notebook
 
 ```console
 $ python3 -m venv ./venv
