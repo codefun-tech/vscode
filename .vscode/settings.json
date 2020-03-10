@@ -14,15 +14,19 @@
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "editor.renderIndentGuides": false,
+  "editor.renderWhitespace": "all",
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true
   },
   "markdown.preview.fontFamily": "'Cascadia Mono', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Courier New', 'Droid Sans', sans-serif",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/node_modules/*/**": true,
     "**/venv/**": true
-  }
+  },
+  "timeline.showView": true
 }
