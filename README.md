@@ -7,10 +7,12 @@
 - Vim
 - EditorConfig for VS Code
 - Code Spell Checker
+- Path Intellisense
 
 ### Extensions for Python
 
 - Python
+- Visual Studio IntelliCode
 
 ### Extensions for Javascript
 
