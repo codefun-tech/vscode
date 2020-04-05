@@ -19,6 +19,10 @@
 - ESLint
 - [JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly) -> [screenshot](https://code.visualstudio.com/updates/v1_43#_new-javascript-debugger)
 
+### Docker
+
+- docker
+
 ## Themes
 
 - [Horizon Theme](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode)
