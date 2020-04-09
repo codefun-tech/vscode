@@ -27,6 +27,5 @@
     "**/.git/subtree-cache/**": true,
     "**/node_modules/*/**": true,
     "**/venv/**": true
-  },
-  "timeline.showView": true
+  }
 }
