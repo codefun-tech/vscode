@@ -62,6 +62,11 @@ In this initial setup, two packages are required:
 - yapf
 - rope
 - notebook
+- pytest
+- pytest-benchmark
+- line_profiler
+- memory_profiler
+- psutil
 
 ```console
 $ python3 -m venv ./venv
