@@ -8,10 +8,21 @@
 - EditorConfig for VS Code
 - Code Spell Checker
 - Path Intellisense
+- File Watcher
+- Sourcery
+
+### Coding
+
+- [Better Comments](https://github.com/aaron-bond/better-comments)
+
+### Extensions for C
+
+- [C/C++ for Visual Studio Code](https://github.com/Microsoft/vscode-cpptools)
 
 ### Extensions for Python
 
 - Python
+- pylance
 - Visual Studio IntelliCode
 
 ### Extensions for Javascript
@@ -26,7 +37,13 @@
 ## Themes
 
 - [Horizon Theme](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode)
-- [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+- [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+- [C/C++ Themes](https://github.com/Microsoft/vscode-cpptools)
+- [Earthbound Themes](https://github.com/benbusby/earthbound-themes)
+- [Github Light Theme](https://github.com/chuling/vscode-theme-github-light)
+- [Linux Themes for Visual Studio Code](https://github.com/rdnlsmith/vscode-linux-themes)
+- [Panda Theme](https://github.com/tinkertrain/panda-syntax-vscode)
+- [Remedy](https://github.com/robertrossmann/vscode-remedy)
 
 ## Fonts
 
