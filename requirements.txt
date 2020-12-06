@@ -3,3 +3,8 @@ black
 yapf
 rope
 notebook
+pytest
+pytest-benchmark
+line_profiler
+memory_profiler
+psutil
