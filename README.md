@@ -10,6 +10,7 @@
 - Path Intellisense
 - File Watcher
 - Sourcery
+- YAML
 
 ### Coding
 
@@ -24,6 +25,12 @@
 - Python
 - pylance
 - Visual Studio IntelliCode
+- Jupyter
+
+### Extensions for Data Analysis
+
+- Excel Viewer
+- SandDance for VSCode
 
 ### Extensions for Javascript
 
@@ -44,6 +51,7 @@
 - [Linux Themes for Visual Studio Code](https://github.com/rdnlsmith/vscode-linux-themes)
 - [Panda Theme](https://github.com/tinkertrain/panda-syntax-vscode)
 - [Remedy](https://github.com/robertrossmann/vscode-remedy)
+- [Winter is Coming](https://github.com/johnpapa/vscode-winteriscoming)
 
 ## Fonts
 
@@ -57,6 +65,7 @@
 
 In this initial setup, two packages are required:
 
+- ipykernel
 - flake8
 - black
 - yapf
