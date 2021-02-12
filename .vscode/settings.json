@@ -35,5 +35,7 @@
     "tests"
   ],
   "python.testing.unittestEnabled": false,
-  "python.testing.nosetestsEnabled": false
+  "python.testing.nosetestsEnabled": false,
+  "notebook.outline.showCodeCells": true,
+  "notebook.breadcrumbs.showCodeCells": true
 }
