@@ -18,7 +18,6 @@
   "python.testing.nosetestsEnabled": false,
   "notebook.outline.showCodeCells": true,
   "notebook.breadcrumbs.showCodeCells": true,
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
