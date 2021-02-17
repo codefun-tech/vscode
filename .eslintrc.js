@@ -3,25 +3,22 @@ module.exports = {
     browser: true,
     node: true,
     es2020: true,
-    jquery: true
+    jquery: true,
   },
   globals: {},
-  parser: 'espree',
+  parser: "espree",
   parserOptions: {
     ecmaVersion: 2020,
     ecmaFeatures: {
       impliedStrict: true,
-      jsx: true
+      jsx: true,
     },
-    sourceType: 'module'
+    sourceType: "module",
   },
-  plugins: ['react'],
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended'
-  ],
+  plugins: ["react"],
+  extends: ["eslint:recommended", "plugin:react/recommended"],
   rules: {
-    semi: ['error', 'always'],
-    camelcase: 'off'
-  }
+    semi: ["error", "always"],
+    camelcase: "off",
+  },
 };
