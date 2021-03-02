@@ -71,6 +71,7 @@ In this initial setup, two packages are required:
 - black
 - yapf
 - rope
+- [PrettyErrors](https://github.com/onelivesleft/PrettyErrors)
 - bandit
 - notebook
 - pytest

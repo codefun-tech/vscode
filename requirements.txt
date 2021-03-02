@@ -2,6 +2,7 @@ flake8
 black
 yapf
 rope
+pretty-errors
 bandit
 notebook
 pytest
