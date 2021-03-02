@@ -71,6 +71,7 @@ In this initial setup, two packages are required:
 - black
 - yapf
 - rope
+- bandit
 - notebook
 - pytest
 - pytest-benchmark
