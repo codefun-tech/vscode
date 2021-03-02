@@ -81,9 +81,11 @@ In this initial setup, two packages are required:
 - psutil
 
 ```console
-$ python3 -m venv ./venv
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
 ```
 
 ```console
-$ pip install -r requirements.txt
+$ python -m pretty_errors
 ```
