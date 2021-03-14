@@ -1,5 +1,6 @@
-__pycache__/
 venv/
+node_modules/
+__pycache__/
 .vscode/.ropeproject
 .pytest_cache
 .benchmarks
