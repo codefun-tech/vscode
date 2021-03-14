@@ -11,6 +11,7 @@
 - File Watcher
 - Sourcery
 - YAML
+- Power Mode
 
 ### Coding
 
@@ -23,9 +24,9 @@
 ### Extensions for Python
 
 - Python
+- Jupyter
 - pylance
 - Visual Studio IntelliCode
-- Jupyter
 
 ### Extensions for Data Analysis
 
@@ -68,7 +69,7 @@ In this initial setup, two packages are required:
 
 - ipykernel
 - flake8
-- black
+- black(in use)
 - yapf
 - rope
 - [PrettyErrors](https://github.com/onelivesleft/PrettyErrors)
