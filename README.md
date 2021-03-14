@@ -39,6 +39,11 @@
 - [JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly) -> [screenshot](https://code.visualstudio.com/updates/v1_43#_new-javascript-debugger)
 - Prettier
 
+### C
+
+- [CMake Tools](https://github.com/microsoft/vscode-cmake-tools)
+- [Better C++ Syntax](https://github.com/jeff-hykin/cpp-textmate-grammar)
+
 ### Docker
 
 - docker
