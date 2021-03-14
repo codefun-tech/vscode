@@ -49,11 +49,13 @@
 - [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 - [C/C++ Themes](https://github.com/Microsoft/vscode-cpptools)
 - [Earthbound Themes](https://github.com/benbusby/earthbound-themes)
+- [GitHub Theme](https://github.com/primer/github-vscode-theme)
 - [Github Light Theme](https://github.com/chuling/vscode-theme-github-light)
 - [Linux Themes for Visual Studio Code](https://github.com/rdnlsmith/vscode-linux-themes)
 - [Panda Theme](https://github.com/tinkertrain/panda-syntax-vscode)
 - [Remedy](https://github.com/robertrossmann/vscode-remedy)
 - [Winter is Coming](https://github.com/johnpapa/vscode-winteriscoming)
+- [Bearded Theme](https://github.com/BeardedBear/bearded-theme)
 
 ## Fonts
 
