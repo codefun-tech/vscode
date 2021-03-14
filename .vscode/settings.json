@@ -21,8 +21,9 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.fontFamily": "'Cascadia Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'Fira Code', 'Cascadia Mono', Consolas, 'Courier New', 'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 14,
+  "editor.fontLigatures": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "editor.renderIndentGuides": false,
