@@ -24,6 +24,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  // C C++ Settings
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
   // Markdown Settings
   "markdown.preview.fontFamily": "'Cascadia Mono', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Courier New', 'Droid Sans', sans-serif",
   // Editor Settings
