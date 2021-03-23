@@ -1,6 +1,9 @@
 venv/
 node_modules/
+dist/
+*.egg-info/
 __pycache__/
-.vscode/.ropeproject
-.pytest_cache
 .benchmarks
+.pytest_cache
+.vscode/.ropeproject
+.pypirc
