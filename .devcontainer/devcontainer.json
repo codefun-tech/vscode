@@ -1,0 +1,98 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.163.0/containers/python-3
+{
+  "name": "container name",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": {
+      // Update 'VARIANT' to pick a Python version: 3, 3.6, 3.7, 3.8, 3.9
+      "VARIANT": "3",
+    }
+  },
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    // Terminal
+    "terminal.integrated.shell.linux": "/bin/bash",
+    // Python Settings
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+      "--ignore=E501,E203,W503",
+      "--verbose"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+      "tests"
+    ],
+    "python.autoComplete.extraPaths": [],
+    "python.analysis.extraPaths": [],
+    "notebook.outline.showCodeCells": true,
+    "notebook.breadcrumbs.showCodeCells": true,
+    // Javascript Settings
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    // C C++ Settings
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    // Markdown Settings
+    "markdown.preview.fontFamily": "'Cascadia Mono', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Courier New', 'Droid Sans', sans-serif",
+    // Editor Settings
+    "editor.fontFamily": "'Cascadia Code', 'Cascadia Mono', 'Fira Code', Consolas, 'Courier New', 'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.renderIndentGuides": false,
+    "editor.renderWhitespace": "all",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.eslint": true
+    },
+    // Files Settings
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true,
+      "**/venv/**": true
+    },
+    // Others
+    "powermode.enabled": true,
+    "powermode.shakeIntensity": 0
+  },
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "visualstudioexptteam.vscodeintellicode",
+    "hoovercj.vscode-power-mode",
+    "msrvida.vscode-sanddance",
+    "grapecity.gc-excelviewer",
+  ],
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [
+    9000
+  ],
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple",
+  // Use 'portsAttributes' to set default properties for specific forwarded ports.
+  "portsAttributes": {
+    "9000": {
+      "label": "Port Label",
+      "onAutoForward": "notify"
+    }
+  },
+  // Comment out to connect as root instead.
+  "remoteUser": "vscode"
+}
