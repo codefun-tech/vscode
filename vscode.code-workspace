@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "notebook.outline.showCodeCells": true,
+    "notebook.breadcrumbs.showCodeCells": true,
+    "powermode.enabled": true,
+    "powermode.shakeIntensity": 0
+  }
+}
