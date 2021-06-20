@@ -38,6 +38,8 @@
 - ESLint
 - [JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly) -> [screenshot](https://code.visualstudio.com/updates/v1_43#_new-javascript-debugger)
 - Prettier
+  - eslint-plugin-prettier
+  - eslint-config-prettier
 
 ### C
 
@@ -96,4 +98,22 @@ $ pip install -r requirements.txt
 
 ```console
 $ python -m pretty_errors
+```
+
+## Install Javascript Related Tools
+
+```console
+$ npm install eslint
+$ npm install --save-dev --save-exact prettier
+$ npm install --save-dev eslint-plugin-prettier
+$ npm install --save-dev eslint-config-prettier
+```
+
+Then you need to add plugin:prettier/recommended as the last extension in your .eslintrc.json:
+
+```json
+{
+  "plugins": ["prettier"],
+  "extends": ["plugin:prettier/recommended"]
+}
 ```

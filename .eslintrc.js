@@ -15,8 +15,12 @@ module.exports = {
     },
     sourceType: "module",
   },
-  plugins: ["react"],
-  extends: ["eslint:recommended", "plugin:react/recommended"],
+  plugins: ["react", "prettier"],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+  ],
   rules: {
     semi: ["error", "always"],
     camelcase: "off",
