@@ -50,6 +50,11 @@
 
 - docker
 
+### Others
+
+- REST Client
+- Thunder Client
+
 ## Themes
 
 - [Horizon Theme](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode)
