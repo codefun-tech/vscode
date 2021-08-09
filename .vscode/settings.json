@@ -17,6 +17,7 @@
   ],
   "python.autoComplete.addBrackets": true,
   "python.autoComplete.extraPaths": [],
+  "python.analysis.completeFunctionParens": true,
   "python.analysis.extraPaths": [],
   "notebook.outline.showCodeCells": true,
   "notebook.breadcrumbs.showCodeCells": true,
@@ -53,5 +54,5 @@
   },
   // Others
   "powermode.enabled": true,
-  "powermode.shakeIntensity": 0
+  "powermode.shakeIntensity": 0,
 }
