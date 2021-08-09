@@ -43,6 +43,9 @@
     "source.fixAll": true,
     "source.fixAll.eslint": true
   },
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#ff0000"
+  },
   // Files Settings
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
