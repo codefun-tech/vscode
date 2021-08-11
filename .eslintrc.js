@@ -15,14 +15,17 @@ module.exports = {
     },
     sourceType: "module",
   },
-  plugins: ["react", "prettier"],
+  plugins: ["react", "react-hooks", "prettier"],
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:prettier/recommended",
   ],
   rules: {
-    semi: ["error", "always"],
-    camelcase: "off",
+    "semi": ["error", "always"],
+    "camelcase": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
   },
 };
