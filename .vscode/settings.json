@@ -22,7 +22,11 @@
   "notebook.outline.showCodeCells": true,
   "notebook.breadcrumbs.showCodeCells": true,
   // Javascript Settings
-  "[javascript]": {
+  "[javascript|json|react]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // HTML and CSS Settings
+  "[html|css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
