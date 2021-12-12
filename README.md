@@ -76,6 +76,7 @@
 - [Fira Code](https://github.com/tonsky/FiraCode)
 - [Hasklig](https://github.com/i-tu/Hasklig/)
 - [IBM Plex](https://github.com/IBM/plex)
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
 ## Install Python Requirements
 
