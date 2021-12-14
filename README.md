@@ -40,6 +40,7 @@
 - Prettier
   - eslint-plugin-prettier
   - eslint-config-prettier
+- npm
 
 ### C
 
