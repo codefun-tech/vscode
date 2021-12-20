@@ -41,6 +41,9 @@
   - eslint-plugin-prettier
   - eslint-config-prettier
 - npm
+- Quokka
+- Import Cost
+- TODO Highlight
 
 ### C
 
@@ -55,6 +58,7 @@
 
 - REST Client
 - Thunder Client
+- CodeSnap
 
 ## Themes
 
