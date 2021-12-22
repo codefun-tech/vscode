@@ -27,6 +27,7 @@
 - Jupyter
 - pylance
 - Visual Studio IntelliCode
+- Python Docstring Generator
 
 ### Extensions for Data Analysis
 
