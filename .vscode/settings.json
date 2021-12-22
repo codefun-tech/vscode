@@ -19,6 +19,7 @@
   "python.autoComplete.extraPaths": [],
   "python.analysis.completeFunctionParens": true,
   "python.analysis.extraPaths": [],
+  "autoDocstring.docstringFormat": "numpy",
   "notebook.outline.showCodeCells": true,
   "notebook.breadcrumbs.showCodeCells": true,
   // Javascript Settings
