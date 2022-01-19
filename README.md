@@ -29,6 +29,7 @@
 - pylance
 - Visual Studio IntelliCode
 - Python Docstring Generator
+- Visual Studio IntelliCode API Usage Examples
 
 ### Extensions for Data Analysis
 
