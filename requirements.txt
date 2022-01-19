@@ -1,10 +1,9 @@
 ipykernel
 flake8
+bandit
 black
-yapf
 rope
 pretty-errors
-bandit
 notebook
 pytest
 pytest-benchmark
