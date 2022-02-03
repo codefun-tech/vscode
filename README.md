@@ -62,6 +62,7 @@
 - REST Client
 - Thunder Client
 - CodeSnap
+- MySQL
 
 ## Themes
 
