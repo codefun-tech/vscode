@@ -3,10 +3,10 @@ flake8
 bandit
 black
 rope
-pretty-errors
 notebook
 pytest
 pytest-benchmark
 line_profiler
 memory_profiler
 psutil
+pretty_errors

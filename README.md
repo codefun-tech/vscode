@@ -13,45 +13,41 @@
 - YAML
 - Power Mode
 
-### Coding
+### General Coding
 
 - [Better Comments](https://github.com/aaron-bond/better-comments)
 - Todo Tree
 
-### Extensions for C
+### C
 
 - [C/C++ for Visual Studio Code](https://github.com/Microsoft/vscode-cpptools)
+- [Better C++ Syntax](https://github.com/jeff-hykin/better-cpp-syntax)
+- [CMake Tools](https://github.com/microsoft/vscode-cmake-tools)
 
-### Extensions for Python
 
-- Python
-- Jupyter
-- pylance
+### Python
+
+- Python (Pylance)
+- Jupyter (Jupyter Keymap, Jupyter Notebook Renderers)
 - Visual Studio IntelliCode
-- Python Docstring Generator
 - Visual Studio IntelliCode API Usage Examples
+- Python Docstring Generator
 
-### Extensions for Data Analysis
+### Data Analysis
 
 - Excel Viewer
 - SandDance for VSCode
 
-### Extensions for Javascript
+### Javascript
 
 - ESLint
 - [JavaScript Debugger (Nightly)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly) -> [screenshot](https://code.visualstudio.com/updates/v1_43#_new-javascript-debugger)
 - Prettier
   - eslint-plugin-prettier
   - eslint-config-prettier
-- npm
 - Quokka
 - Import Cost
 - TODO Highlight
-
-### C
-
-- [CMake Tools](https://github.com/microsoft/vscode-cmake-tools)
-- [Better C++ Syntax](https://github.com/jeff-hykin/cpp-textmate-grammar)
 
 ### Docker
 
@@ -62,7 +58,7 @@
 - REST Client
 - Thunder Client
 - CodeSnap
-- MySQL
+- [MySQL](https://github.com/cweijan/vscode-database-client)
 
 ## Themes
 
@@ -94,9 +90,7 @@ In this initial setup, two packages are required:
 - ipykernel
 - flake8
 - black(in use)
-- yapf
 - rope
-- [PrettyErrors](https://github.com/onelivesleft/PrettyErrors)
 - bandit
 - notebook
 - pytest
@@ -104,15 +98,12 @@ In this initial setup, two packages are required:
 - line_profiler
 - memory_profiler
 - psutil
+- [pretty_errors](https://github.com/onelivesleft/PrettyErrors)
 
 ```console
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
-```
-
-```console
-$ python -m pretty_errors
 ```
 
 ## Install Javascript Related Tools
