@@ -1,7 +1,10 @@
 {
   // Python Settings
   "python.defaultInterpreterPath": "venv/bin/python",
-  "python.formatting.provider": "black",
+  "python.formatting.provider": "none",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
   "python.linting.enabled": true,
   "python.linting.lintOnSave": true,
   "python.linting.pylintEnabled": false,
@@ -46,7 +49,7 @@
   "editor.guides.indentation": false,
   "editor.renderWhitespace": "all",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
+    "source.fixAll": false,
     "source.fixAll.eslint": true,
     "source.organizeImports": false
   },
@@ -57,6 +60,7 @@
   // Files Settings
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
