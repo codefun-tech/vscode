@@ -53,6 +53,7 @@
     "source.fixAll.eslint": true,
     "source.organizeImports": false
   },
+  "editor.stickyScroll.enabled": true,
   "vim.smartRelativeLine": true,
   "workbench.colorCustomizations": {
     "terminal.foreground": "#ff0000"
