@@ -19,10 +19,17 @@
   "python.testing.pytestArgs": [
     "tests"
   ],
-  "python.autoComplete.extraPaths": [],
   "python.analysis.extraPaths": [],
-  "python.analysis.typeCheckingMode": "strict",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
   "python.analysis.completeFunctionParens": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.fixAll": [
+    "source.unusedImports",
+  ],
+  "python.envFile": "${workspaceFolder}/.env",
   "autoDocstring.docstringFormat": "numpy",
   "notebook.outline.showCodeCells": true,
   "notebook.breadcrumbs.showCodeCells": true,
@@ -35,8 +42,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  // C C++ Settings
-  "C_Cpp.intelliSenseEngine": "Tag Parser",
   // Markdown Settings
   "markdown.preview.fontFamily": "'Cascadia Mono', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Courier New', 'Droid Sans', sans-serif",
   // Editor Settings
@@ -50,13 +55,14 @@
   "editor.renderWhitespace": "all",
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
+    "source.fixAll.pylance": true,
     "source.fixAll.eslint": true,
     "source.organizeImports": false
   },
   "editor.stickyScroll.enabled": true,
   "vim.smartRelativeLine": true,
   "workbench.colorCustomizations": {
-    "terminal.foreground": "#ff0000"
+    "terminal.foreground": "#2A9D8F"
   },
   // Files Settings
   "files.trimTrailingWhitespace": true,
@@ -68,6 +74,7 @@
     "**/node_modules/*/**": true,
     "**/venv/**": true
   },
+  "explorer.excludeGitIgnore": true,
   // Others
   "powermode.enabled": true,
   "powermode.shake.intensity": 0,
