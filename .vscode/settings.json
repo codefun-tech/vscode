@@ -33,6 +33,8 @@
   "autoDocstring.docstringFormat": "numpy",
   "notebook.outline.showCodeCells": true,
   "notebook.breadcrumbs.showCodeCells": true,
+  "notebook.formatOnSave.enabled": true,
+  "notebook.output.scrolling": true,
   // Javascript Settings
   "[javascript|json|react]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
