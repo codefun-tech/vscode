@@ -12,11 +12,13 @@
 - Sourcery
 - YAML
 - Power Mode
+- Tabnine AI
 
 ### General Coding
 
 - [Better Comments](https://github.com/aaron-bond/better-comments)
 - Todo Tree
+- TODO Highlight
 
 ### C
 
@@ -47,7 +49,6 @@
   - eslint-config-prettier
 - Quokka
 - Import Cost
-- TODO Highlight
 
 ### Docker
 
