@@ -12,6 +12,7 @@
 - Sourcery
 - YAML
 - Power Mode
+- Github Copilot
 - Tabnine AI
 
 ### General Coding
