@@ -44,6 +44,7 @@
 
 - Excel Viewer
 - SandDance for VSCode
+- Data Wrangler
 
 ### Javascript
 
