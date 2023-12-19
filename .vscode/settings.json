@@ -1,19 +1,14 @@
 {
   // Python Settings
   "python.defaultInterpreterPath": "venv/bin/python",
-  "python.formatting.provider": "none",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "python.linting.enabled": true,
-  "python.linting.lintOnSave": true,
-  "python.linting.pylintEnabled": false,
-  "python.linting.banditEnabled": true,
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": [
+  "flake8.args": [
     "--ignore=E501,E203,W503",
     "--verbose"
   ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
   "python.testing.pytestArgs": [
@@ -27,7 +22,7 @@
   "python.analysis.inlayHints.functionReturnTypes": true,
   "python.analysis.inlayHints.pytestParameters": true,
   "python.analysis.fixAll": [
-    "source.unusedImports",
+    "source.unusedImports"
   ],
   "python.envFile": "${workspaceFolder}/.env",
   "autoDocstring.docstringFormat": "numpy",
@@ -56,10 +51,10 @@
   "editor.guides.indentation": false,
   "editor.renderWhitespace": "all",
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.fixAll.pylance": true,
-    "source.fixAll.eslint": true,
-    "source.organizeImports": false
+    "source.fixAll": "never",
+    "source.fixAll.pylance": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
   "editor.stickyScroll.enabled": true,
   "vim.smartRelativeLine": true,

@@ -34,6 +34,8 @@
 
 ### Python
 
+[Python Tools Extensions](https://github.com/microsoft/vscode-python/wiki/Migration-to-Python-Tools-Extensions#alternatives)
+
 - Python (Pylance)
 - Jupyter (Jupyter Keymap, Jupyter Notebook Renderers)
 - Visual Studio IntelliCode

@@ -1,7 +1,5 @@
 ipykernel
-flake8
 bandit
-black
 rope
 notebook
 pytest
