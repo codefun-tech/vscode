@@ -1,7 +1,6 @@
 ipykernel
 bandit
 rope
-notebook
 pytest
 pytest-benchmark
 line_profiler

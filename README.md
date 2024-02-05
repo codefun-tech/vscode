@@ -13,40 +13,34 @@
 - YAML
 - Power Mode
 
-### AI Coding
-
-- Github Copilot
-- Tabnine AI
-- CodeCursor
-
 ### General Coding
 
 - [Better Comments](https://github.com/aaron-bond/better-comments)
 - Todo Tree
 - TODO Highlight
 
-### C
+### AI Coding
 
-- [C/C++ for Visual Studio Code](https://github.com/Microsoft/vscode-cpptools)
-- [Better C++ Syntax](https://github.com/jeff-hykin/better-cpp-syntax)
-- [CMake Tools](https://github.com/microsoft/vscode-cmake-tools)
-
+- Github Copilot
+- Github Copilot Chat
+- Tabnine AI
+- CodeCursor
 
 ### Python
 
 [Python Tools Extensions](https://github.com/microsoft/vscode-python/wiki/Migration-to-Python-Tools-Extensions#alternatives)
 
-- Python (Pylance)
-- Jupyter (Jupyter Keymap, Jupyter Notebook Renderers)
-- Visual Studio IntelliCode
-- Visual Studio IntelliCode API Usage Examples
+- Pylance
+- Python
+- Python Debugger
+- Flake8 (or Pylint)
+- Black Formatter (or autopep8)
+- Mypy Type Checker
+- isort
+- Jupyter (Jupyter Keymap, Jupyter Notebook Renderers, Jupyter Slide Show, Jupyter Cell Tags)
+- IntelliCode
+- IntelliCode API Usage Examples
 - Python Docstring Generator
-
-### Data Analysis
-
-- Excel Viewer
-- SandDance for VSCode
-- Data Wrangler
 
 ### Javascript
 
@@ -58,6 +52,20 @@
 - Quokka
 - Import Cost
 
+### C
+
+- [C/C++ for Visual Studio Code](https://github.com/Microsoft/vscode-cpptools)
+- [Better C++ Syntax](https://github.com/jeff-hykin/better-cpp-syntax)
+- [CMake Tools](https://github.com/microsoft/vscode-cmake-tools)
+
+### Data Analysis
+
+- Excel Viewer
+- SandDance for VSCode
+- Data Wrangler
+- MySQL Shell for VS Code
+- [MySQL](https://github.com/cweijan/vscode-database-client)
+
 ### Docker
 
 - docker
@@ -67,7 +75,7 @@
 - REST Client
 - Thunder Client
 - CodeSnap
-- [MySQL](https://github.com/cweijan/vscode-database-client)
+- Polyglot Notebooks
 
 ## Themes
 
@@ -97,11 +105,8 @@
 In this initial setup, two packages are required:
 
 - ipykernel
-- flake8
-- black(in use)
 - rope
 - bandit
-- notebook
 - pytest
 - pytest-benchmark
 - line_profiler
