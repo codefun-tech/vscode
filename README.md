@@ -11,7 +11,6 @@
 - File Watcher
 - Sourcery
 - YAML
-- Power Mode
 
 ### General Coding
 
@@ -76,6 +75,7 @@
 - Thunder Client
 - CodeSnap
 - Polyglot Notebooks
+- Power Mode
 
 ## Themes
 
