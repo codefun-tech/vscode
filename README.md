@@ -18,27 +18,21 @@
 - Todo Tree
 - TODO Highlight
 
-### AI Coding
-
-- Github Copilot
-- Github Copilot Chat
-- Tabnine AI
-- CodeCursor
-
 ### Python
 
 [Python Tools Extensions](https://github.com/microsoft/vscode-python/wiki/Migration-to-Python-Tools-Extensions#alternatives)
 
-- Pylance
-- Python
-- Python Debugger
+- Python (Pylance, Python Debugger)
 - Flake8 (or Pylint)
 - Black Formatter (or autopep8)
 - Mypy Type Checker
 - isort
-- Jupyter (Jupyter Keymap, Jupyter Notebook Renderers, Jupyter Slide Show, Jupyter Cell Tags)
-- IntelliCode
-- IntelliCode API Usage Examples
+- Jupyter (Jupyter Keymap, Jupyter Slide Show, Jupyter Cell Tags, Jupyter Notebook Renderers)
+- Github Copilot (Github Copilot Chat)
+- Github Copilot Voice
+- VS Code Speech
+- IntelliCode (IntelliCode API Usage Examples)
+- IntelliCode Completions
 - Python Docstring Generator
 
 ### Javascript
@@ -68,6 +62,10 @@
 ### Docker
 
 - docker
+
+### AI Coding
+
+- Tabnine AI
 
 ### Others
 
