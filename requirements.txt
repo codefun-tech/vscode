@@ -1,0 +1,4 @@
+ipykernel
+bandit
+rope
+pytest

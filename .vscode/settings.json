@@ -1,0 +1,73 @@
+{
+  // Python Settings
+  "python.defaultInterpreterPath": "venv/bin/python",
+  "flake8.args": ["--ignore=E501,E203,W503", "--verbose"],
+  "mypy-type-checker.args": ["disable-error-code=import-untyped"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["tests"],
+  "python.analysis.extraPaths": [],
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.inlayHints.variableTypes": false,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.fixAll": ["source.unusedImports"],
+  "python.envFile": "${workspaceFolder}/.env",
+  "autoDocstring.docstringFormat": "numpy",
+  "notebook.outline.showCodeCells": true,
+  "notebook.breadcrumbs.showCodeCells": true,
+  "notebook.formatOnSave.enabled": true,
+  "notebook.output.scrolling": true,
+  // Javascript Settings
+  "[javascript|json|react]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // HTML and CSS Settings
+  "[html|css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  // Markdown Settings
+  "markdown.preview.fontFamily": "'Cascadia Mono', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Courier New', 'Droid Sans', sans-serif",
+  // Editor Settings
+  "editor.fontFamily": "'Cascadia Code', 'Cascadia Mono', 'Fira Code', Consolas, 'Courier New', 'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "all",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.pylance": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.stickyScroll.enabled": true,
+  "vim.smartRelativeLine": true,
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#2A9D8F"
+  },
+  // Files Settings
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/venv/**": true
+  },
+  "explorer.excludeGitIgnore": true,
+  // Others
+  "powermode.enabled": true,
+  "powermode.shake.intensity": 0,
+  "powermode.combo.counterEnabled": "hide"
+}
