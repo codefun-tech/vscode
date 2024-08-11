@@ -45,6 +45,8 @@ Except for the VS Code Speech extension, the above extensions are must-haves for
 
 ## Themes
 
+You can learn to install themes from the tutorial [Visual Studio Code Themes](https://codefun.tech/visual-studio-code-themes/).
+
 - [Horizon Theme](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode)
 - [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 - [C/C++ Themes](https://github.com/Microsoft/vscode-cpptools)
@@ -61,12 +63,18 @@ Except for the VS Code Speech extension, the above extensions are must-haves for
 
 Please follow the tutorials [Choosing The Best Programming Fonts](https://codefun.tech/choosing-the-best-programming-fonts/) and [Free Best Programming Fonts for All Time](https://codefun.tech/free-best-programming-fonts-for-all-time/) to choose your favorite fonts.
 
-- [Cascadia Code](https://github.com/microsoft/cascadia-code)
-- [Courier Prime](https://quoteunquoteapps.com/courierprime/)
 - [Fira Code](https://github.com/tonsky/FiraCode)
-- [Hasklig](https://github.com/i-tu/Hasklig/)
-- [IBM Plex](https://github.com/IBM/plex)
-- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+- [Consolas](https://learn.microsoft.com/en-us/typography/font-list/consolas)
+- [Inconsolata](https://github.com/googlefonts/Inconsolata)
+- [Cascadia Code](https://github.com/microsoft/cascadia-code)
+- [Courier New](https://learn.microsoft.com/en-us/typography/font-list/courier-new)
+- [Courier Prime](https://quoteunquoteapps.com/courierprime/)
+- [Monaco](https://en.wikipedia.org/wiki/Monaco_(typeface))
+- [Menlo](https://en.wikipedia.org/wiki/Menlo_(typeface))
+- [Ubuntu Mono](https://design.ubuntu.com/font/)
+- [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
 
 ## Install Python Requirements
 
