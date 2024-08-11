@@ -19,24 +19,14 @@
   "python.analysis.inlayHints.pytestParameters": true,
   "python.analysis.fixAll": ["source.unusedImports"],
   "python.envFile": "${workspaceFolder}/.env",
-  "autoDocstring.docstringFormat": "numpy",
   "notebook.outline.showCodeCells": true,
   "notebook.breadcrumbs.showCodeCells": true,
   "notebook.formatOnSave.enabled": true,
   "notebook.output.scrolling": true,
-  // Javascript Settings
-  "[javascript|json|react]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  // HTML and CSS Settings
-  "[html|css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  // "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   // Markdown Settings
-  "markdown.preview.fontFamily": "'Cascadia Mono', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Courier New', 'Droid Sans', sans-serif",
+  "markdown.preview.fontFamily": "'Cascadia Code', -apple-system, , sans-serif",
   // Editor Settings
-  "editor.fontFamily": "'Cascadia Code', 'Cascadia Mono', 'Fira Code', Consolas, 'Courier New', 'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "Consolas, Menlo, 'Ubuntu Mono', monospace",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "editor.formatOnType": true,
