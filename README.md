@@ -42,6 +42,7 @@ Except for the VS Code Speech extension, the above extensions are must-haves for
 - Thunder Client
 - CodeSnap
 - Power Mode
+- vscode-pets
 
 ## Themes
 
